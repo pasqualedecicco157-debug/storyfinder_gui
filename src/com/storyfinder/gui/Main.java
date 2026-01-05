@@ -26,6 +26,10 @@ public class Main extends JFrame {
             new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
+                    String argomento = parolaChiave.getText();
+                    GestoreStoria gestoreStoria = new GestoreStoria();
+                    Storia lamiaStoria = gestoreStoria getBeststory (argomento)
+                
                     String nomepersonaggio = nome.gettext();
                     String luogoiniziale = luogo.gettext();
                     String oggettopreferito = oggetto.gettext();
