@@ -24,7 +24,6 @@ public class Main extends JFrame {
         setVisible(true);
         generaStoriaButton.addActionListener(
             new ActionListener() {
-                @Override
                 public void actionPerformed(ActionEvent e) {
                     String argomento = parolaChiave.getText();
                     GestoreStoria gestoreStoria = new GestoreStoria();
@@ -35,7 +34,6 @@ public class Main extends JFrame {
                     String oggettopreferito = oggetto.gettext();
                     string parolaChiave = parolaChiave.gettext();
                     new StoryPage();
-                    JOptionPane.showMessageDialog(Main.this, "Ciao");
                 }
             }
         );
